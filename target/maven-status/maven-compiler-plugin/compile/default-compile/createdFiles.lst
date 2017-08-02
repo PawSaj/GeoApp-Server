@@ -1,0 +1,17 @@
+pro\config\WebApplicationInitializer.class
+pro\model\ModelConfig.class
+pro\dao\DaoConfig.class
+pro\config\SpringConfig.class
+pro\controller\LoginController.class
+pro\security\MyUserDetailService.class
+pro\config\DispatcherConfig.class
+pro\mapping\UserMapper.class
+pro\security\RestAuthenticationEntryPoint.class
+pro\service\UserService.class
+pro\config\WebApplicationSecurityInitializer.class
+pro\dto\UserDto.class
+pro\model\entity\User.class
+pro\security\SecurityJavaConfig.class
+pro\service\ServiceConfig.class
+pro\dao\UserRepository.class
+pro\security\MyAuthenticationProvider.class

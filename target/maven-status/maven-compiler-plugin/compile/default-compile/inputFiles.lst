@@ -1,0 +1,17 @@
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\config\WebApplicationInitializer.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\service\ServiceConfig.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\model\ModelConfig.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\controller\LoginController.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\security\MyAuthenticationProvider.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\dao\DaoConfig.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\dto\UserDto.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\security\RestAuthenticationEntryPoint.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\mapping\UserMapper.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\config\DispatcherConfig.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\security\MyUserDetailService.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\security\SecurityJavaConfig.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\config\SpringConfig.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\dao\UserRepository.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\config\WebApplicationSecurityInitializer.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\model\entity\User.java
+C:\Users\Paweł Sajnóg\Desktop\Project\src\main\java\pro\service\UserService.java
