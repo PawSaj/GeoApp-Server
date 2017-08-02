@@ -51,8 +51,10 @@ public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
 
         // uwierzytelnianie
         http.exceptionHandling().authenticationEntryPoint(restAuthenticationEntryPoint)
-                .and().formLogin().successForwardUrl("/successfulLogin").failureForwardUrl("/failedLogin").and().authorizeRequests()
-                .antMatchers("/login*", "/logout*", "/registration", "/accessDenied").permitAll()
+                .and().formLogin().successForwardUrl("/successfulLogin").failureForwardUrl("/failedLogin")
+                .and().logout().logoutSuccessUrl("/successfulLogout")
+                .and().authorizeRequests()
+                .antMatchers("/login*", "/logout*", "/registration", "/successfulLogout").permitAll()
                 .anyRequest().authenticated();
 //                .and().httpBasic();
 

@@ -26,7 +26,7 @@ public class UserService {
     public UserDto getUserByUsername(String username) {
         logger.debug("getUserByUsername, username={}", username);
         User user = userRepository.findUserByUsername(username);
-        return userMapper.map(user);
+        return userMapper.mapToDto(user);
     }
 
     public boolean userByNameAndPasswordExists(String username, String password) {
@@ -36,4 +36,7 @@ public class UserService {
     public void insertUserToDatabase(User user) {
         userRepository.save(user);
     }
+
+    public User mapUserFromDto(UserDto userDto) {return userMapper.mapFromDto(userDto); }
+
 }
